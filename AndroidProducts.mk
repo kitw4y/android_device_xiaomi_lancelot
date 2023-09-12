@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_lancelot.mk
+    $(LOCAL_DIR)/aosp_lancelot.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_lancelot-user \
-    derp_lancelot-userdebug \
-    derp_lancelot-eng
+    aosp_lancelot-user \
+    aosp_lancelot-userdebug \
+    aosp_lancelot-eng
