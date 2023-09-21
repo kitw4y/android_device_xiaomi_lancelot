@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_lancelot.mk
+    $(LOCAL_DIR)/lineage_lancelot.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_lancelot-user \
-    derp_lancelot-userdebug \
-    derp_lancelot-eng
+    lineage_lancelot-user \
+    lineage_lancelot-userdebug \
+    lineage_lancelot-eng \
