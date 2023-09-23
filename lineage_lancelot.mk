@@ -14,18 +14,8 @@ $(call inherit-product, device/xiaomi/lancelot/device.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_lancelot
-PRODUCT_DEVICE := lancelot
-PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_BRAND := Redmi
-PRODUCT_MODEL := Redmi 9
-
-PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-
-
-
 #flags
-RISING_CHIPSET := "Mt6768"
+RISING_CHIPSET := "MT6768"
 RISING_MAINTAINER := "Asce||エース°"
 RISING_PACKAGE_TYPE := "AOSP"
 TARGET_BUILD_APERTURE_CAMERA := true
@@ -38,6 +28,21 @@ WITH_GMS := true
 TARGET_USE_GOOGLE_TELEPHONY := false
 TARGET_CORE_GMS := true
 TARGET_CORE_GMS_EXTRAS := true
+
+
+
+
+PRODUCT_NAME := lineage_lancelot
+PRODUCT_DEVICE := lancelot
+PRODUCT_MANUFACTURER := Xiaomi
+PRODUCT_BRAND := Redmi
+PRODUCT_MODEL := Redmi 9
+
+PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+
+
+
 
 
 
