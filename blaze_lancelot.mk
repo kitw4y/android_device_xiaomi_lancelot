@@ -14,6 +14,19 @@ $(call inherit-product, device/xiaomi/lancelot/device.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/blaze/config/common_full_phone.mk)
 
+TARGET_ENABLE_BLUR := false
+
+# Boot animaton
+TARGET_BOOT_ANIMATION_RES := 1080
+
+# Blaze Official Stuff
+BLAZE_BUILD_TYPE := OFFICIAL
+BLAZE_MAINTAINER := Asce||エース°
+TARGET_FACE_UNLOCK_SUPPORTED := true
+WITH_GAPPS := true
+TARGET_SUPPORTS_CALL_RECORDING := true
+
+
 PRODUCT_NAME := blaze_lancelot
 PRODUCT_DEVICE := lancelot
 PRODUCT_MANUFACTURER := Xiaomi
