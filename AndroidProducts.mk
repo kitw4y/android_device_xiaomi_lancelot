@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/blaze_lancelot.mk
+    $(LOCAL_DIR)/aosp_lancelot.mk
 
 COMMON_LUNCH_CHOICES := \
-    blaze_lancelot-user \
-    blaze_lancelot-userdebug \
-    blaze_lancelot-eng
+    aosp_lancelot-user \
+    aosp_lancelot-userdebug \
+    aosp_lancelot-eng
