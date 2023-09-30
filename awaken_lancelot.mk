@@ -14,6 +14,13 @@ $(call inherit-product, device/xiaomi/lancelot/device.mk)
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/awaken/config/common_full_phone.mk)
 
+# Bootanimation
+TARGET_BOOT_ANIMATION_RES := 1080
+
+# GMS
+TARGET_GAPPS_ARCH := arm64
+USE_GAPPS := true
+
 PRODUCT_NAME := awaken_lancelot
 PRODUCT_DEVICE := lancelot
 PRODUCT_MANUFACTURER := Xiaomi
