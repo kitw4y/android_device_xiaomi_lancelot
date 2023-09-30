@@ -5,7 +5,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_lancelot.mk
+    $(LOCAL_DIR)/awaken_lancelot.mk
 
 COMMON_LUNCH_CHOICES := \
     awaken_lancelot-user \
