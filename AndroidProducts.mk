@@ -8,6 +8,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_lancelot.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_lancelot-user \
-    aosp_lancelot-userdebug \
-    aosp_lancelot-eng
+    awaken_lancelot-user \
+    awaken_lancelot-userdebug \
+    awaken_lancelot-eng
