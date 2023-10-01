@@ -18,8 +18,8 @@ $(call inherit-product, vendor/awaken/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # GMS
-TARGET_GAPPS_ARCH := arm64
-USE_GAPPS := true
+
+USE_GAPPS := false
 
 PRODUCT_NAME := awaken_lancelot
 PRODUCT_DEVICE := lancelot
