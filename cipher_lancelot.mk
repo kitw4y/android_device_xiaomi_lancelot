@@ -11,17 +11,20 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from device makefile.
 $(call inherit-product, device/xiaomi/lancelot/device.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/awaken/config/common_full_phone.mk)
+# Inherit from Cipher Common
+$(call inherit-product, vendor/cipher/config/common_full_phone.mk)
 
-# Bootanimation
-TARGET_BOOT_ANIMATION_RES := 1080
-
+# CipherOS specific flags
+# Faceunlock Support
+TARGET_FACE_UNLOCK_SUPPORTED := true
+# Maintainer
+CIPHER_MAINTAINER := lang
 # GMS
-TARGET_GAPPS_ARCH := arm64
-USE_GAPPS := true
+CIPHER_GAPPS := true
+# Enable Blurs
+CIPHER_BLUR := true
 
-PRODUCT_NAME := awaken_lancelot
+PRODUCT_NAME := cipher_lancelot
 PRODUCT_DEVICE := lancelot
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
